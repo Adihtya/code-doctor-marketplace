@@ -1,0 +1,10 @@
+{
+  "name": "code-doctor",
+  "version": "0.1.0",
+  "description": "Code review checklist panel with security, performance, and best practices checks",
+  "author": {
+    "name": "Aditya Chaudhari"
+  },
+  "license": "MIT",
+  "icon": "icon.png"
+}
