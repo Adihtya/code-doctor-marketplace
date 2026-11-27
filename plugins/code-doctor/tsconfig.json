@@ -1,0 +1,13 @@
+{
+  "extends": "@claude-code/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "claude-code": ["node_modules/claude-code"]
+    }
+  },
+  "include": [
+    "hooks/**/*",
+    ".claude-plugin/**/*"
+  ]
+}
