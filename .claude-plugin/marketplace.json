@@ -1,0 +1,14 @@
+{
+  "name": "code-doctor-marketplace",
+  "description": "Code review and security diagnostics for Claude Code",
+  "owner": {
+    "name": "Aditya Chaudhari"
+  },
+  "plugins": [
+    {
+      "name": "code-doctor",
+      "source": "./plugins/code-doctor",
+      "description": "Code review checklist panel with automated security and best practices scanning"
+    }
+  ]
+}
