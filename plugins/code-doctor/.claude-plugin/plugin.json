@@ -6,5 +6,6 @@
     "name": "Aditya Chaudhari"
   },
   "license": "MIT",
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "repository": "https://github.com/Adihtya/code-doctor.git"
 }

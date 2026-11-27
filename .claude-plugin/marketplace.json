@@ -1,14 +1,14 @@
 {
   "name": "code-doctor-marketplace",
-  "description": "Code review and security diagnostics for Claude Code",
-  "owner": {
-    "name": "Aditya Chaudhari"
-  },
-  "plugins": [
-    {
-      "name": "code-doctor",
-      "source": "./plugins/code-doctor",
-      "description": "Code review checklist panel with automated security and best practices scanning"
+  "description": "Marketplace for Code Doctor plugin",
+  "plugins": {
+    "code-doctor": {
+      "name": "Code Doctor",
+      "description": "Code review checklist panel with security, performance, and best practices checks",
+      "author": "Aditya Chaudhari",
+      "version": "0.1.0",
+      "repository": "https://github.com/Adihtya/code-doctor.git",
+      "icon": "plugins/code-doctor/icon.png"
     }
-  ]
+  }
 }
